@@ -1,0 +1,104 @@
+<form>
+  <h1 class="mb-4 text-body-tertiary">Informations de l' Activité</h1>
+  <div class="mb-5">
+    <div class="mb-3">
+      <label for="" class="form-label">Nom de l'activité</label>
+      <input type="text" class="form-control" id="" required>
+    </div>
+    <div class="mb-4">
+      <label for="">Description</label>
+      <textarea class="form-control"id=""></textarea>
+    </div>
+    <div class="row mt-2">
+      <div class="col-md-3">
+        <label for="" class="form-label">Créateur</label>
+        <select class="form-select" aria-label="Select example">
+          <option>Open this select menu</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+      <div class="col-md-3">
+        <label for="" class="form-label">Type d'activité</label>
+        <select class="form-select" aria-label="Select example">
+          <option>Open this select menu</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+      <div class="col-md-3">
+        <label for="" class="form-label">Statut de l'activité</label>
+        <select class="form-select" aria-label="Select example">
+          <option>Open this select menu</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+      <div class="col-md-3">
+        <label for="" class="form-label">Quotas</label>
+        <input type="number" class="form-control" id="" required>
+      </div>
+    </div>
+  </div> 
+  <h1 class="mb-3 text-body-tertiary">Adresse</h1>
+  <div class="row">
+    <div class="col-4">
+      <label for="">Ville</label>
+          <input type="text" class="form-control" id="" required>
+  
+    </div>
+    <div class="col-4">
+      <label for="">Region</label>
+          <input type="text" class="form-control" id="" required>
+  
+    </div>
+    <div class="col-4">
+      <label for="">Nom de la rue</label>
+          <input type="text" class="form-control" id="" required>
+    </div>
+  </div>
+  <h1 class="mb-3 mt-3 text-body-tertiary">Tarifs</h1>
+  <div class="row mb-4">
+    <div class="col-6">
+      <label for="">Frais</label>
+      <input type="number" class="form-control" id="" required>
+    </div>
+    <div class="col-6">
+      <label for="">Crédit</label>
+      <input type="number" class="form-control" id="" disabled value="0">
+    </div>
+  </div>
+  <h1 class="mb-3 mt-3 text-body-tertiary">Horaires</h1>
+  <div class="py-5 mb-4">
+    <div class="rounded border p-10 row bg-light-subtle">
+      <div class="mb-0 col-md-4">
+        <div class="mb-0">
+          <label for="" class="form-label">Debut</label>
+          <date-time-field-app></date-time-field-app>
+        </div>
+      </div> 
+      <div class="mb-0 col-md-4">
+        <div class="mb-0">
+          <label for="" class="form-label">Fin</label>
+          <date-time-field-app></date-time-field-app>
+        </div>
+      </div>
+      <div class="mb-0 col-md-4">
+        <div class="mb-0">
+          <label for="" class="form-label">Durée de la séance</label>
+          <time-field-app></time-field-app>
+        </div>
+      </div> 
+    </div>
+  </div>
+  <h1 class="mb-3 text-body-tertiary">Images</h1>
+  <div class="row mb-4">
+    <div class="col-12">
+      <label for="formFile" class="form-label">Image</label>
+      <input class="form-control" type="file" id="formFile" required>
+    </div>
+  </div>
+</form>

@@ -1,0 +1,82 @@
+<form>
+  <h1 class="mb-4 text-body-tertiary">Informations de la salle</h1>
+  <div class="mb-5">
+    <div class="mb-3">
+      <label for="" class="form-label">Nom de la salle</label>
+      <input type="text" class="form-control" id="" required>
+    </div>
+    <div class="mb-3">
+      <label for="">Description</label>
+      <textarea class="form-control"id=""></textarea>
+    </div>
+  </div> 
+  <h1 class="mb-3 text-body-tertiary">Adresse & Localisation</h1>
+  <div class="row">
+    <div class="col-4">
+      <label for="">Ville</label>
+          <input type="text" class="form-control" id="" required>
+  
+    </div>
+    <div class="col-4">
+      <label for="">Region</label>
+          <input type="text" class="form-control" id="" required>
+  
+    </div>
+    <div class="col-4">
+      <label for="">Nom de la rue</label>
+          <input type="text" class="form-control" id="" required>
+    </div>
+    <div class="col-md-6">
+      <label for="" class="form-label">Latitude</label>
+      <input type="number" class="form-control" id="">
+    </div>
+    <div class="col-md-6">
+      <label for="" class="form-label">Longitude</label>
+      <input type="number" class="form-control" id="">
+    </div>
+  </div>
+
+  <h1 class="mb-3 mt-3 text-body-tertiary">Tarifs</h1>
+  <div class="row mb-4">
+    <div class="col-4">
+      <label for="">Frais</label>
+      <input type="number" class="form-control" id="" required>
+    </div>
+    <div class="col-4">
+      <label for="">Crédit</label>
+      <input type="number" class="form-control" id="" disabled value="0">
+    </div>
+    <div class="col-4">
+      <label for="">Code Marchand</label>
+      <input type="number" class="form-control" id="" required>
+    </div>
+  </div>
+  <h1 class="mb-3 mt-3 text-body-tertiary">Horaires</h1>
+  <div class="py-5 mb-4">
+    <div class="rounded border p-10 row bg-light-subtle">
+      <div class="mb-0 col-md-6">
+        <div class="mb-0">
+          <label for="" class="form-label">Heure d'Ouverture</label>
+          <time-field-app></time-field-app>
+        </div>
+      </div> 
+      <div class="mb-0 col-md-6">
+        <div class="mb-0">
+          <label for="" class="form-label">Heure de Fermeture</label>
+          <time-field-app></time-field-app>
+      </div>
+      </div> 
+    </div>
+  </div>
+  <h1 class="mb-3 text-body-tertiary">Images</h1>
+  <div class="row mb-4">
+    <div class="col-12">
+      <label for="formFile" class="form-label">Logo</label>
+      <input class="form-control" type="file" id="formFile" required>
+    </div>
+    <div class="mb-3">
+      <label for="formFileMultiple" class="form-label">Images</label>
+      <input class="form-control" type="file" id="formFileMultiple" multiple>
+    </div>
+  </div>
+</form>

@@ -1,0 +1,20 @@
+<!-- Search toolbar -->
+<div class="btn btn-icon btn-color-gray-700 btn-active-color-primary btn-outline w-40px h-40px"
+  [ngClass]="toolbarButtonMarginClass">
+  <div class="btn btn-icon btn-active-light-primary btn-custom btn-custom" [ngClass]="toolbarButtonHeightClass"
+    data-kt-menu-trigger="click" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end"
+    data-kt-menu-flip="bottom">
+    <span [inlineSVG]="'./assets/media/icons/duotune/general/gen021.svg'" class="svg-icon"
+      [ngClass]="toolbarButtonIconSizeClass"></span>
+  </div>
+  <app-search-result-inner></app-search-result-inner>
+</div>
+
+
+<!-- begin::Theme mode -->
+<app-theme-mode-switcher
+  class="btn btn-icon btn-color-gray-700 btn-active-color-primary btn-outline w-40px h-40px"
+  [ngClass]="toolbarButtonMarginClass"
+  toggleBtnClass="{`btn btn-icon btn-active-light-primary btn-custom ${toolbarButtonHeightClass}`}">
+</app-theme-mode-switcher>
+<!-- end::Theme mode -->

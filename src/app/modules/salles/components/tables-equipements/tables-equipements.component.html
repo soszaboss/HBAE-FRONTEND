@@ -1,0 +1,136 @@
+<!-- begin::Header -->
+<div class="card mb-5 mb-xl-8 mx-tw">
+  <div class="card-header border-0 pt-5">
+    <h3 class="card-title align-items-start flex-column">
+      <span class="card-label fw-bolder fs-3 mb-1">Equipements</span><br>
+      <span class="text-muted mt-1 fw-bold fs-7">Plus de 500 Equipements</span>
+    </h3><br>
+    <div
+      class="card-toolbar"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover"
+      title="Click to add a user"
+    >
+    
+      <button type="button" class="btn btn-sm btn-light-primary" data-bs-toggle="modal" data-bs-target="#exampleModalLabel">
+        <span
+          [inlineSVG]="'./assets/media/icons/duotune/arrows/arr075.svg'"
+          class="svg-icon svg-icon-3"
+          
+        ></span>
+        Ajouter Equipement
+      </button>
+    </div>
+  </div>
+  <!-- end::Header -->
+  <!-- begin::Body -->
+  <div class="card-body py-3">
+    <!-- begin::Table container -->
+    <div class="table-responsive">
+      <!-- begin::Table -->
+      <table
+        class="table table-row-dashed table-row-gray-300 align-middle gs-0 gy-4"
+      >
+        <!-- begin::Table head -->
+        <thead>
+          <tr class="fw-bolder text-muted">
+            <th class="w-25px">
+              <div
+                class="
+                  form-check form-check-sm form-check-custom form-check-solid
+                "
+              >
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value="1"
+                  data-kt-check="true"
+                  data-kt-check-target=".widget-9-check"
+                />
+              </div>
+            </th>
+            <th scope="col" class="min-w-140px">Equipement</th>
+            <th scope="col" class="min-w-120px">Salles</th>
+            <th scope="col" class="min-w-120px">Effectif</th>
+            <th scope="col" class="min-w-140px">Dernier Maintenance</th>
+            <th scope="col" class="min-w-100px text-end">Actions</th>
+          </tr>
+        </thead>
+        <!-- end::Table head -->
+        <!-- begin::Table body -->
+        <tbody>
+          <tr>
+
+            <th scope="row">
+              <span>
+                <img src="./assets/media/logos/dumbell.jpeg" style="height: 30px; width: 30px">
+              </span>
+            </th>
+            <td>
+              <span>
+                Dumbell
+              </span>
+            </td>
+            <td>
+                <span class="fw-bolder">Diouf Fitness</span>
+            </td>
+            <td>
+              30
+          </td>
+            <td>
+              07/12/2022
+            </td>
+            <td>
+              <div class="d-flex justify-content-end flex-shrink-0">
+                <a
+                  href="#"
+                  class="
+                    btn btn-icon btn-bg-light btn-active-color-primary btn-sm
+                    me-1
+                  "
+                >
+                  <span
+                    [inlineSVG]="
+                      './assets/media/icons/duotune/general/gen019.svg'
+                    "
+                    class="svg-icon svg-icon-3"
+                  ></span>
+                </a>
+                <a
+                  href="#"
+                  class="
+                    btn btn-icon btn-bg-light btn-active-color-primary btn-sm
+                    me-1
+                  "
+                >
+                  <span
+                    [inlineSVG]="'./assets/media/icons/duotune/art/art005.svg'"
+                    class="svg-icon svg-icon-3"
+                  ></span>
+                </a>
+                <a
+                  href="#"
+                  class="
+                    btn btn-icon btn-bg-light btn-active-color-primary btn-sm
+                  "
+                >
+                  <span
+                    [inlineSVG]="
+                      './assets/media/icons/duotune/general/gen027.svg'
+                    "
+                    class="svg-icon svg-icon-3"
+                  ></span>
+                </a>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+        <!-- end::Table body -->
+      </table>
+      <!-- end::Table -->
+    </div>
+    <!-- end::Table container -->
+  </div>
+  <!-- begin::Body -->
+</div>
